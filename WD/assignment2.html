@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Assignment 2</title>
+</head>
+<body style="align-items: center; width: 50%;margin-left: 25%; text-align: center; background-image:url(./photo/b2.jpg);background-size:cover;">
+    <h3 style="color: rgb(255, 234, 0) ;">STUDENTS DETAILS</h3>
+    <div class="details">
+
+  
+    <forms>
+        <fieldset  >
+            <legend style="color: rgb(255, 255, 255);">Personal Information</legend>
+            <label style="color: rgb(255, 255, 255);" for="fname">Enter Your Name</label>
+            <input type="text" id="fname" name="fname" size="50" autofocus >
+            <br><br>
+            <label style="color: rgb(255, 255, 255);" for="age">Enter Your age</label>
+            <input type="number" id="age" name="age" maxlength="2"  autofocus>
+            <br><br>
+            <label style="color: rgb(255, 255, 255);" for="dob">Date of Birth</label>
+            <input type="date" id="dob" name="dob" value=""  autofocus>
+            <br><br>
+            <label style="color: rgb(255, 255, 255);" for="yoa">Year of Admission</label>
+            <input type="" id="yoa" name="yoa" value="" max="2022" min="2016" autofocus>
+            <br><br>
+            <label style="color: rgb(255, 255, 255);" for="bg">Blood Group</label>
+            <select id="bg" name="bg"   autofocus>
+                <option value="A+">A+</option>
+                <option value="A-">A-</option>
+                <option value="B+">B+</option>
+                <option value="B-">B-</option>
+                <option value="AB+">AB+</option>
+                <option value="AB-">AB-</option>
+                <option value="O+">O+</option>
+                <option value="O-">O-</option>
+            </select>
+        </fieldset>
+        <fieldset >
+            <legend style="color: rgb(255, 255, 255);">Academic Records</legend>
+            <h4 style="color: rgb(255, 255, 255);">Select your year</h4>
+            <input type="radio" id="fy" name="fy" value="FY">
+            <label style="color: rgb(255, 255, 255);" for="fy">First Year</label>
+            <input type="radio" id="se" name="se" value="SE">
+            <label style="color: rgb(255, 255, 255);" for="se">Second Year</label>
+            <input type="radio" id="te" name="te" value="TE">
+            <label style="color: rgb(255, 255, 255);" for="te">Third Year</label>
+            <input type="radio" id="be" name="be" value="BE">
+            <label style="color: rgb(255, 255, 255);" for="be">Final Year</label>
+            <br><br>
+
+            <label style="color: rgb(255, 255, 255);" for="semo">Sem 1 SGPA</label>
+            <input type="text" id="semo" name="semo" size="10">
+            <label style="color: rgb(255, 255, 255);" for="semo">Sem 2 SGPA</label>
+            <input type="text" id="semt" name="semt" size="10"> <br>
+            <label style="color: rgb(255, 255, 255);" for="semo">Sem 3 SGPA</label>
+            <input type="text" id="seth" name="semth" size="10"> 
+            <label style="color: rgb(255, 255, 255);" for="semo">Sem 4 SGPA</label>
+            <input type="text" id="semf" name="semf" size="10"><br> 
+            <label style="color: rgb(255, 255, 255);" for="semo">Sem 5 SGPA</label>
+            <input type="text" id="semfi" name="semfi" size="10"> 
+            <label style="color: rgb(255, 255, 255);" for="semo">Sem 6 SGPA</label>
+            <input type="text" id="semsi" name="semsi" size="10"> <br>
+            <label style="color: rgb(255, 255, 255);" for="semo">Sem 7 SGPA</label>
+            <input type="text" id="sems" name="sems" size="10"> 
+            <label style="color: rgb(255, 255, 255);" for="semo">Sem 8 SGPA</label>
+            <input type="text" id="seme" name="seme" size="10">
+            
+            <fieldset >
+            <legend style="color: rgb(255, 255, 255);">Internship Details</legend>
+            <label style="color: rgb(255, 255, 255);" for="com">Company Name</label>
+            <input type="text" id="com" name="com"><br>
+            <label style="color: rgb(255, 255, 255);" for="doj">Date of Joining</label>
+            <input type="date" id="doj" name="doj" value=""><br>
+            <label style="color: rgb(255, 255, 255);" for="dur">Duration</label>
+            <input type="number" id="dur" name="dur" min="1" max="12">
+           
+            </fieldset>
+        </fieldset>
+
+        <fieldset >
+            <legend style="color: rgb(255, 255, 255);">Placement Records</legend>
+            <h4 style="color: rgb(255, 255, 255);">What have you opted for?</h4>
+            <input type="radio" id="hs" name="hs" value="HS">
+            <label style="color: rgb(255, 255, 255);" for="hs">Higher Studies</label>
+            <input type="radio" id="pl" name="pl" value="PL">
+            <label style="color: rgb(255, 255, 255);" for="pl">Placements</label>
+            <br><br>
+            <label style="color: rgb(255, 255, 255);" for="noc">How many drives have you registered for?</label>
+            <input type="number" id="noc" name="noc" min="1" max="20">
+            <br><br>
+            <label style="color: rgb(255, 255, 255);" for="noo">How many Offers have you received?</label>
+            <input type="number" id="noo" name="noo" min="1" max="20">
+            <br><br>
+            <label style="color: rgb(255, 255, 255);" for="cof">Which company have you finalised?</label>
+            <input type="text" id="cof" name="cof">
+        </fieldset>
+    </forms>
+</body>
+</html>

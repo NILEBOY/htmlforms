@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        table,th, td{
+            border: 2px solid black;
+        }
+        td:hover{
+            background-color: limegreen;
+        }
+        tr :nth-child(even) {
+            background-color: rgb(134, 133, 133);
+        }
+        th:nth-child(even),td:nth-child(even) {
+            background-color:rgb(134, 133, 133);
+         }    
+        
+        
+    </style>
+</head>
+<body>
+    <table style="width: 100%; text-align: center;border: 2px solid black;">
+        <tr>
+            <th>Time</th>
+            <th>MON</th>
+            <th>TUE</th>
+            <th>WED</th>
+            <th>THRS</th>
+            <th>FRI</th>
+            <th>SAT</th>
+        </tr>
+        <tr>
+            <td>8:45 - 9:45</td>
+            <td rowspan="2">WD</td>
+            <td rowspan="2">OCN</td>
+            <td rowspan="2">NMT</td>
+            <td rowspan="2">OCN</td>
+            <td rowspan="2">WD</td>
+            <td rowspan="2">ILO</td>
+        </tr>
+        <tr>
+            <td>9:45 - 10:45</td>
+        </tr>
+        <tr>
+            <td>10:45 - 11:00</td>
+            <td colspan="6">BREAK</td>
+            
+        </tr>
+        <tr>
+            <td>11:00 - 12:00</td>
+            <td rowspan="2">NMT</td>
+            <td rowspan="2">NMT</td>
+            <td rowspan="2">WD</td>
+            <td rowspan="2">NMT</td>
+            <td>NMT</td>
+            <td rowspan="2">ILO</td>
+        </tr>
+        <tr>
+            <td>12:00 - 1:00</td>
+            <td>OCN</td>
+        </tr>
+        <tr>
+            <td>1:00 - 1:00</td>
+            <td colspan="6">BREAK</td>
+            
+        </tr>
+        <tr>
+            <td>1:30 - 2:30</td>
+            <td>OCN</td>
+            <td rowspan="3">PROJECT</td>
+            <td>OCN</td>
+            <td>WD</td>
+            <td rowspan="3">ILO</td>
+            <td rowspan="3">PLACEMENT</td>
+        </tr>
+        <tr>
+            <td>2:30 - 3:30</td>
+            <td rowspan="2">PROJECT</td>
+            <td rowspan="2">PROJECT</td>
+            <td rowspan="2">PROJECT</td>
+        </tr>
+        <tr>
+            <td>3:30 - 4:30</td>
+        </tr>
+    </table>
+</body>
+</html>

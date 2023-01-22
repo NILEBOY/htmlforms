@@ -1,0 +1,31 @@
+body{
+    margin: 0;
+    background-image: url("./photo/engin-akyurt-Hlkuojv_P6I-unsplash.jpg");
+
+}
+
+.head{
+    text-align: center;
+    color: whitesmoke;
+    font-family:sans-serif;
+    margin-top: 3%;
+  
+}
+.details{
+    display: flex;
+    margin-top: 7%;
+    font-family:sans-serif;
+   
+}
+.img{
+   margin-left: 100px;
+   padding: 10px;
+}
+.pd{
+    color: antiquewhite;
+    margin-left: 30%;
+}
+.personality pre{
+    color: antiquewhite;
+    margin-left: 50%;
+}

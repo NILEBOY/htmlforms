@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h2> THIS IS A FORM</h2>
+    <forms >
+        <label></label>
+        <label for="fname">First Name</label><br>
+        <input type="text" id="fname" name="fname" value="" size="50"><br><br>
+
+        <label for="lname">Last Name</label><br>
+        <input type="text" id="lname" name="lname" value="Nile" disabled><br><br>
+
+        <label for="dob">Date of Birth</label><br>
+        <input type="date" id="dob" name="dob" value=""><br><br>
+
+        <label for="rno">Roll number</label><br>
+        <input type="number" id="rno" name="rno" value="" maxlength="7"><br><br>
+
+        <button type="submit">Submit</button>
+
+        <br><br><br>
+
+        <label for="car">Choose a brand</label>
+        <select id="car" name="car" size="2" multiple>
+            <option value="" selected> select</option>
+            <option value="BMW"> BMW</option>
+            <option value="AUDI"> AUDI</option>
+            <option value="MERCEDES">MERCEDES</option>
+            <option value="volvo">volvo</option>
+            <option value="Range-Rover">Range-Rover</option>
+        </select>
+
+        <br>
+        <br><br>
+
+
+        
+        <button type="button " onclick="alert('hello')">click</button>
+        <br>
+        <br>
+        <br>
+
+        <fieldset>
+            <legend>Personal Information</legend>
+            <label for="fname">First Name</label><br>
+            <input type="text" id="fname" name="fname" value="" autocomplete="on"><br><br>
+    
+            <label for="lname">Last Name</label><br>
+            <input type="text" id="lname" name="lname" value=""><br><br>
+
+            <button type="button " onclick="alert('Information saved')">Save</button>
+        </fieldset>
+
+        <br><br><br>
+        
+        <label for="file">Select File</label><br>
+        <input type="file" id="file" name="file"Choose File><br><br>
+        <input type="Submit" value="Submit">
+
+       <br><br><br>
+       
+       <label for="phone number">Enter you number</label><br><br>
+       <input type="tel" id="phone number" name="phone number" placeholder="123-456-789" pattern="[0-9][3]-[0-9][7]" required>
+       <button type="button ">Save</button>
+
+    <br>
+    <br>
+    <br>
+
+    <label for="datemax">Enter a date before 2023-12-31</label>
+    <input type="date" id="datemax" name="datemax" max="2023-12-31">
+    <br><br>
+    <label for="datemin">Enter a date after 2000-01-01</label>
+    <input type="date" id="datemin" name="datemin" min="2000-01-01">
+
+
+    </forms>
+</body>
+</html>
