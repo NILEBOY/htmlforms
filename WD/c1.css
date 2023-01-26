@@ -1,6 +1,7 @@
 body{
     margin: 0;
     background-image: url("./photo/engin-akyurt-Hlkuojv_P6I-unsplash.jpg");
+    font-family: 'Courier New', Courier, monospace;
 
 }
 
@@ -23,9 +24,34 @@ body{
 }
 .pd{
     color: antiquewhite;
-    margin-left: 30%;
+    margin-left: 10%;
 }
 .personality pre{
     color: antiquewhite;
     margin-left: 50%;
+    max-width: fit-content;
+}
+ul  {
+    list-style: none;
+    width: 200px;
+    
+}
+ li a{
+    list-style: none;
+    display: block;
+    padding: 8px 16px;
+    text-decoration: none;
+    color: azure;
+    margin-left: 45%;
+}
+
+ul li a:active{
+    background-color:yellow;
+    color: aqua;
+}
+
+
+li a:hover{
+    background-color: aqua;
+    color: blue;
 }
